@@ -9,7 +9,7 @@ const { initializeAndExecute } = require('./swap.js');
 // Initialize Firebase Admin SDK
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://mudasbot-default-rtdb.firebaseio.com/"
+    databaseURL: "#"
 });
 const db = admin.firestore();
 
