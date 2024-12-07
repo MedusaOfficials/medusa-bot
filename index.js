@@ -4,7 +4,7 @@ const axios = require('axios');
 const admin = require('firebase-admin');
 require('dotenv').config();
 const tokenAbi = require('./abi/token.json')
-const serviceAccount = require('./firebase-service-account.json');
+const serviceAccount = require('./#');
 const { initializeAndExecute } = require('./swap.js');
 // Initialize Firebase Admin SDK
 admin.initializeApp({
