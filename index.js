@@ -13,7 +13,7 @@ admin.initializeApp({
 });
 const db = admin.firestore();
 
-const bot = new TelegramBot('8020592770:AAGe3kB0t3jmmtdwLeK_VXBZhZaaDWe7y7c', { polling: true });
+const bot = new TelegramBot('', { polling: true });
 
 // Connect to Metis Andromeda RPC endpoint
 const provider = new ethers.providers.JsonRpcProvider("https://andromeda.metis.io/?owner=1088");
